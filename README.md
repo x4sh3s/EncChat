@@ -4,7 +4,7 @@ an encrypted server/client chat in python using RSA and AES.
 ### How to use it:
 
 1. `git clone https://github.com/x4sh3s/EncChat`
-2. `python -m pip install -r requirements.txt
+2. `python -m pip install -r requirements.txt`
 3. On the server side: `python server.py $IP $PORT`
 4. On the client side: `python client.py $IP $PORT $name`
 
