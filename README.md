@@ -11,7 +11,7 @@ an encrypted server/client chat in python using RSA and AES.
 ### How It Works?:
 
 1. The server generate a random 16 bytes to use it as a symmetric aes key
-2. The Client first generate a public/private key pair for RSA, and send it to the server
+2. The Client first generate a public/private key pair for RSA, and send it (the public key) to the server
 3. The server encrypt the session key ( created in 1 ) with the user's public key
 4. the user decrypt it with his private key
 5. The communication is now encrypted with AES.
